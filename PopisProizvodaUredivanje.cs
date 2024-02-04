@@ -17,11 +17,11 @@ namespace Aplikacija_Trgovine
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
-        UcitajPodatkeOKupcu();
+        UcitajPodatkeOproizvodu();
         }
 
 
-        private void UcitajPodatkeOKupcu()
+        private void UcitajPodatkeOproizvodu()
         {
             using (StreamReader reader = new StreamReader("Proizvod.txt"))
             {

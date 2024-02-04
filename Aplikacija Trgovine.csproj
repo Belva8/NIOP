@@ -76,6 +76,12 @@
     <Compile Include="IzbrisiKupca.Designer.cs">
       <DependentUpon>IzbrisiKupca.cs</DependentUpon>
     </Compile>
+    <Compile Include="KupacEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KupacEdit.Designer.cs">
+      <DependentUpon>KupacEdit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\Kupac.cs" />
     <Compile Include="Model\Narudzba.cs" />
     <Compile Include="Model\PodatkovniKontekst.cs" />
@@ -85,6 +91,12 @@
     </Compile>
     <Compile Include="ObrisiNarudzbu.Designer.cs">
       <DependentUpon>ObrisiNarudzbu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OdabraniKupac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OdabraniKupac.Designer.cs">
+      <DependentUpon>OdabraniKupac.cs</DependentUpon>
     </Compile>
     <Compile Include="PopisKupaca.cs">
       <SubType>Form</SubType>
@@ -151,8 +163,14 @@
     <EmbeddedResource Include="IzbrisiKupca.resx">
       <DependentUpon>IzbrisiKupca.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KupacEdit.resx">
+      <DependentUpon>KupacEdit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ObrisiNarudzbu.resx">
       <DependentUpon>ObrisiNarudzbu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OdabraniKupac.resx">
+      <DependentUpon>OdabraniKupac.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PopisKupaca.resx">
       <DependentUpon>PopisKupaca.cs</DependentUpon>

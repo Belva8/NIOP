@@ -13,6 +13,9 @@ namespace Aplikacija_Trgovine
 {
     public partial class PreurediKupca : Form
     {
+       
+
+
         public PreurediKupca()
         {
             InitializeComponent();
@@ -103,5 +106,10 @@ namespace Aplikacija_Trgovine
             }
         }
     }
+
+
+
+
+
     }
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Aplikacija_Trgovine.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +18,8 @@ namespace Aplikacija_Trgovine
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            PodatkovniKontekst podatkovnikontekstProizvod = new PodatkovniKontekst();
+            
         }
 
 
@@ -30,8 +33,8 @@ namespace Aplikacija_Trgovine
                     while ((line = reader.ReadLine()) != null)
                     {
                         string[] podaci = line.Split(',');
-                        string menuPodaci = $"NazivProizvoda: {podaci[0]}, Kategorija: {podaci[1]}, Cijena: {podaci[2]}, Kolicina: {podaci[3]}";
-                        listBox1.Items.Add(menuPodaci);
+                        string ProizvodPodaci = $"NazivProizvoda: {podaci[0]}, Kategorija: {podaci[1]}, Cijena: {podaci[2]}, Kolicina: {podaci[3]}";
+                        listBox1.Items.Add(ProizvodPodaci);
                     }
                 }
             }

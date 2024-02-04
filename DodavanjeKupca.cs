@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Aplikacija_Trgovine
 {
@@ -17,7 +18,7 @@ namespace Aplikacija_Trgovine
 
         Kupac kupac = new Kupac();
 
-         private PopisKupaca formPrikaziKupce;
+        private PopisKupaca formPrikaziKupce;
 
 
         public DodavanjeKupca()
@@ -82,8 +83,24 @@ namespace Aplikacija_Trgovine
             using (StreamWriter sw = new StreamWriter("Kupac.txt", true))
             {
                 sw.WriteLine($"{kupac.Ime},{kupac.Prezime},{kupac.OIB},{kupac.Godine}");
+
+
             }
+            if (textBox1.Text.ToString() == "" || textBox2.Text.ToString() == "" || textBox3.Text.ToString() == "" || textBox4.Text.ToString() == "")
+            {
+                MessageBox.Show("Niste unijeli sve");
+            }
+            else
+            {
+                PodatkovniKontekst podatkovniKontekstKupac = new PodatkovniKontekst();
+                String varijabla = $"{textBox1.Text} - {textBox2.Text} - {textBox3.Text} - {textBox4.Text}";
+                podatkovniKontekstKupac.DodavanjeKupcacs(varijabla);
+            }
+
         }
+
+    
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -117,6 +134,11 @@ namespace Aplikacija_Trgovine
                 textBox3.Text = textBox3.Text.Substring(0, 12);
                 textBox3.SelectionStart = textBox3.Text.Length;
             }
+        }
+
+        internal static void OsvjeziTextBoxove()
+        {
+            throw new NotImplementedException();
         }
     }
     }

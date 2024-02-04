@@ -22,5 +22,10 @@ namespace Aplikacija_Trgovine
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

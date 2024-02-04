@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Aplikacija_Trgovine.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,10 +14,14 @@ namespace Aplikacija_Trgovine
 {
     public partial class PopisKupaca : Form
     {
+        
+
         public PopisKupaca()
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
+         
+
         }
 
 
@@ -58,6 +63,11 @@ namespace Aplikacija_Trgovine
             DodavanjeKupca DodajKupca = new DodavanjeKupca();
             DodajKupca.Show();
             this.Close();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
