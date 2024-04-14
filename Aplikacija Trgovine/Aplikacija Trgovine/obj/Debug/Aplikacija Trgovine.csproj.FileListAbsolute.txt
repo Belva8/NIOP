@@ -1,0 +1,26 @@
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\bin\Debug\Aplikacija Trgovine.exe.config
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\bin\Debug\Aplikacija Trgovine.exe
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\bin\Debug\Aplikacija Trgovine.pdb
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija Trgovine.csproj.AssemblyReference.cache
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija Trgovine.csproj.SuggestedBindingRedirects.cache
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.DodajNarudzbu.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.DodavanjeKupca.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.DodavanjeProizvoda.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.Form1.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.IzbrisiKupca.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.KupacEdit.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.ObrisiNarudzbu.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.OdabraniKupac.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.PopisKupaca.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.PopisProizvoda.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.PopisProizvodaBrisanje.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.PopisProizvodaUredivanje.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.PreurediKupca.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.PreurediProizvod.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.Properties.Resources.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.UrediKupca.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija_Trgovine.UrediNarudzbu.resources
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija Trgovine.csproj.GenerateResource.cache
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija Trgovine.csproj.CoreCompileInputs.cache
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija Trgovine.exe
+D:\VS\Aplikacija Trgovine\Aplikacija Trgovine\obj\Debug\Aplikacija Trgovine.pdb
